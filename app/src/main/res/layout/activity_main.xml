@@ -9,5 +9,35 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-101dp" />
+
+    <Button
+        android:id="@+id/button_newTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/new_task"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:id="@+id/tasks_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tasks_left"
+        app:layout_constraintStart_toStartOf="@+id/button_newTask"
+        app:layout_constraintTop_toBottomOf="@+id/button_newTask"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:id="@+id/tasks_left_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/tasks_left"
+        app:layout_constraintTop_toBottomOf="@+id/tasks_left"
+        android:textColor="@color/green"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

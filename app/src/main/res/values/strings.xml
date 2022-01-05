@@ -1,42 +1,19 @@
 <resources>
-    <string name="app_name">Zadanie10Balyka</string>
+    <string name="app_name">Zadanie7Balyka</string>
 
-    <string-array name="programming_languages">
-        <item>C++</item>
-        <item>C#</item>
-        <item>Java</item>
-        <item>Javascript</item>
-        <item>Kotlin</item>
-        <item>Python</item>
-        <item>Ruby</item>
-        <item>Swift</item>
-        <item>TypeScript</item>
-        <item>VisualStudio</item>
-    </string-array>
-
-    <string-array name="description">
-        <item>Costam</item>
-        <item>Costam</item>
-        <item>Costam</item>
-        <item>Costam</item>
-        <item>Costam</item>
-        <item>Costam</item>
-        <item>Costam</item>
-        <item>Costam</item>
-        <item>Costam</item>
-        <item>Costam</item>
-    </string-array>
     <string name="title_activity_zadanie">Zadanie</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
     <string name="task_name_hint">Wprowadz nazwe zadania</string>
     <string name="task_name_label">Nazwa</string>
     <string name="task_details_label">Szczegoly</string>
     <string name="task_done_label">Wykonane</string>
+    <string name="new_task">Nowe zadanie</string>
+    <string name="tasks_left">Zostalo zadan</string>
 </resources>

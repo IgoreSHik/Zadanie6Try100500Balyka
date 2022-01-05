@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Задание7Балыко</string>
+    <string name="title_activity_zadanie">Задание</string>
+    <string name="task_name_hint">Введи название задания</string>
+    <string name="task_name_label">Название</string>
+    <string name="task_details_label">Содержимое</string>
+    <string name="task_done_label">Выполнено</string>
+    <string name="new_task">Новое задание</string>
+    <string name="tasks_left">Осталось заданий</string>
+</resources>
